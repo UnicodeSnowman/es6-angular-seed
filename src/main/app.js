@@ -5,7 +5,16 @@ export class Test {
 
     constructor () {
         this.a = a;
+        this.thing = thing;
+    }
+
+    doIt () {
+        return { 
+            dep: this.a 
+        }
     }
 }
 
-console.log(a, thing, Test);
+var test = new Test()
+
+console.log(test.doIt());
