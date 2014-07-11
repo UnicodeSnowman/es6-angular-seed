@@ -7,3 +7,5 @@ export class Test {
         this.a = a;
     }
 }
+
+console.log(a, thing, Test);
