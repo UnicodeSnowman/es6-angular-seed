@@ -1,8 +1,13 @@
 <html>
     <head></head>
-
-    <body>
+    <body ng-app="app">
+        <div ng-controller="MainCtrl as main">
+            <p ng-click="main.onClickName($event)">{{main.name}}</p> 
+            <li ng-repeat="thing in main.things">{{thing}}</li>
+            <p ng-repeat="nombre in main.names">{{nombre}}</p> 
+        </div>
         <script src="../../node_modules/es6ify/node_modules/traceur/bin/traceur-runtime.js"></script>
+        <script src="../../dist/libs.js"></script>
         <script src="../../dist/app.js"></script>
     </body>
 </html>
