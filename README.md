@@ -1,5 +1,6 @@
 ### ES6 AngularJS Seed
 
+## Introduction
 As of now, this is a pretty incomplete proof of concept. I wanted to get
 an uber imple AngularJS app up and running with traceur. Gulp seems to be
 way ahead of the game on this (I struggled long and hard to get this working
@@ -9,3 +10,4 @@ Seems the Angular team has moved to Gulp for all Angular 2.0 components
 as well.
 
 more to come...
+
