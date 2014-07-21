@@ -19,7 +19,8 @@ module.exports = function(config) {
       {pattern: 'dist/libs.js', included: true},
       {pattern: 'bower_components/angular-mocks/angular-mocks.js', included: true},
       {pattern: 'src/main/**/*.js', included: false},
-      {pattern: 'src/test/**/*-spec.js', included: false}
+      {pattern: 'src/test/**/*-spec.js', included: false},
+      {pattern: 'node_modules/es6-shim/es6-shim.js', included: false}
     ],
 
 
