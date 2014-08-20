@@ -11,7 +11,7 @@ var source = require('vinyl-source-stream');
 
 gulp.task('app', function () {
     return browserify('./src/main/app.js')
-        .add(es6ify.runtime) // including runtime doesn't seem to work, need to include manually
+        //.add(es6ify.runtime) // including runtime doesn't seem to work, need to include manually
         .transform(es6ify)
         .bundle({ debug: true })
         .pipe(source('app.js'))
