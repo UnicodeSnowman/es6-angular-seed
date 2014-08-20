@@ -21,6 +21,8 @@ gulp.task('app', function () {
 
 gulp.task('libs', function () {
     gulp.src([
+        'node_modules/es6ify/node_modules/traceur/bin/traceur-runtime.js',
+        'node_modules/es6-shim/es6-shim.js',
         'bower_components/angular/angular.min.js',
         'bower_components/angular-ui-router/release/angular-ui-router.min.js'
     ])
